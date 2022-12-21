@@ -1,0 +1,11 @@
+{
+    "name": "Projekt gry kulki",
+    "$schema": "https://typedoc.org/schema.json",
+    "entryPoints": [
+        "./src/Main.ts",
+        "./src/Data.ts",
+        "./src/Ball.ts",
+        "./src/Board.ts",
+        "./src/Cell.ts",
+    ],
+}

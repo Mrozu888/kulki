@@ -1,0 +1,40 @@
+* {
+    margin: 0 auto;
+    font-family: consolas;
+    background-color: rgb(32, 32, 32);
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    height: 50px;
+    width: 50px;
+    color: white;
+    background-color: #888;
+    align-items: center;
+}
+
+.ball {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    position: relative;
+}
+
+#nextBalls div {
+    float: left;
+}
+
+#nextBalls {
+    position: fixed;
+}
+
+h1 {
+    color: white;
+}
